@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: lightgray;
+    font-family: 'Verdana';
+}
+
+nav {
+    position: fixed;
+    left: 30%;
+    top: 1%;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+  }
+
+li {
+    float: left;
+  }
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #333;
+  }
+
+  li a:hover {
+    background-color: rgb(70, 69, 69);
+  }
+
+  h1 {
+      margin-left: 80px;
+      margin-right: 80px;
+      text-align: center;
+      font-size: 100px;
+      color: lightgray;
+      background-image: url(https://www.sciencealert.com/images/2021-04/processed/algo-diagram_1024.jpg);
+  }
+
+  h2 {
+      margin-left: 80px;
+  }
+
+  p {
+      margin: 30px 80px;
+  }
+
+  table {
+      border: 2px solid black;
+      border-radius: 5px;
+      margin: 50px 80px;
+      text-align: center;
+  }
+
+  th {
+      background-color: lightslategrey;
+      color: whitesmoke;
+  }
+  
+  tr:hover{
+      background-color: lightsteelblue;
+  }
+
+  .singular {
+      background-color: #9FC9C7;
+  }
+
+  .common {
+      background-color: #EBDECF;
+  }
+
+  .table {
+      background-color: #FAF2E6;
+  }
+
+  .list {
+      background-color: #FFFBF7;
+      box-sizing: border-box;
+  }
+
+  .selfclose {
+      background-color: #FFE0F2;
+  }
+
+  .extra {
+      background-color: #DDD3ED;
+  }
